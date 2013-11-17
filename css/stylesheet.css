@@ -81,12 +81,11 @@ body{
     position:relative;
     width:500px;
     height:150px;
+    font-family: 'Signika', sans-serif;
 }
 
 #title_main{
     position:absolute;
-    /*font-family: 'Stalemate', cursive;*/
-    font-family: 'Signika', sans-serif;
     font-size:300%;
     color:darkblue;
     left:0px;
@@ -95,7 +94,6 @@ body{
 
 #title_sub{
     position:absolute;
-    font-family: 'Signika', sans-serif;
     font-size:200%;
     color:darkblue;
     left:0px;
@@ -138,22 +136,42 @@ body{
 ============================================*/
 
 #services{
-    height:600px;
     font-size:200%;
+    font-family: 'Signika', sans-serif;
+    color:red;
+    opacity: 0.8;
+}
+
+#services_content{
+    width: 400px;
+    height:600px;
 }
 
 /* ABOUT 
 ============================================*/
 
 #about{
-    height:600px;
     font-size:200%;
+    font-family: 'Signika', sans-serif;
+    color:darkblue;
+}
+
+#about_content{
+    width: 400px;
+    height:600px;
 }
 
 /* CONTACT 
 ============================================*/
 
 #contact{
-   height:600px; 
    font-size:200%;
+   font-family: 'Signika', sans-serif;
+   color:red;
+   opacity: 0.8;
+}
+
+#contact_content{
+    width: 400px;
+    height:600px;
 }
