@@ -1,0 +1,159 @@
+body{
+    font-family: "Georgia";
+    margin-left:130px;
+    position:relative;
+}
+
+
+/* BACK TO TOP 
+============================================*/
+
+#back_top {
+    position: fixed;
+    bottom: 30px;
+    right: 300px;
+}
+
+#back_top a {
+    display: block;
+    text-decoration: none;
+    color: gray;
+}
+#back_top a:hover {
+    color: black;
+}
+
+/* HOMEPAGE 
+============================================*/
+
+#header {
+    height: 70px;
+    position:relative;
+    margin-left:5px;
+    margin-top:30px;
+    font-size:130%;
+}
+
+#header a {
+    text-decoration:none;
+    color:black;
+    opacity: 0.7;
+}
+
+#header_services {
+    margin-right:20px;
+}
+
+#header_services a {
+}
+
+#header_separator1{
+    color:black;
+    opacity: 0.7;
+}
+
+#header_about {
+    margin-right:20px;
+    margin-left:20px;
+}
+
+#header_about a {
+}
+
+#header_separator2{
+    color:black;
+    opacity: 0.7;
+}
+
+#header_contact {
+    margin-left:20px;
+}
+
+#header_contact a {   
+}
+
+#picture{
+    position:absolute;
+    left: 600px;
+}
+
+#title{
+    position:relative;
+    width:500px;
+    height:150px;
+}
+
+#title_main{
+    position:absolute;
+    /*font-family: 'Stalemate', cursive;*/
+    font-family: 'Signika', sans-serif;
+    font-size:300%;
+    color:darkblue;
+    left:0px;
+    top:0px;
+}
+
+#title_sub{
+    position:absolute;
+    font-family: 'Signika', sans-serif;
+    font-size:200%;
+    color:darkblue;
+    left:0px;
+    top:60px;
+}
+
+#reasons{
+    position:relative;
+    height:100px;
+    margin-left:50px;
+}
+
+#reason_1{
+    position:absolute;
+    top:0px;
+}
+
+#reason_2{
+    position:absolute;
+    top:20px;
+}
+
+#reason_3{
+    position:absolute;
+    top:40px;
+}
+
+#reason_4{
+    position:absolute;
+    top:60px;
+}
+
+#appointment{
+    font-size: 150%;   
+    margin-left: 20px;
+    height:300px;
+}
+
+/* SERVICES
+============================================*/
+
+#services{
+    height:600px;
+    font-size:200%;
+}
+
+/* ABOUT 
+============================================*/
+
+#about{
+    height:600px;
+    font-size:200%;
+}
+
+/* CONTACT 
+============================================*/
+
+#contact{
+   height:600px; 
+   font-size:200%;
+}
