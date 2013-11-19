@@ -1,7 +1,7 @@
 $(document).ready(function(){
     
     //mouse over menu items in header
-    $('#header_aboutus_a, #header_openinghours_a, #header_requestappointment_a, #header_payment_a').hover(
+    $('#header_aboutus_a, #header_openinghours_a, #header_location_a, #header_requestappointment_a, #header_payment_a').hover(
         function(){
         $(this).css('color','red');
         },
@@ -21,6 +21,13 @@ $(document).ready(function(){
         function(event){
             event.preventDefault();
             $.scrollTo('#openinghours', 1000);    
+        }
+    );
+    
+    $('#header_location_a').click(
+        function(event){
+            event.preventDefault();
+            $.scrollTo('#location', 1000);    
         }
     );
     
