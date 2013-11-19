@@ -45,13 +45,6 @@ $(document).ready(function(){
         }
     );
     
-    $('#appointment_a').click(
-        function(event){
-            event.preventDefault();
-            $.scrollTo('#requestappointment', 1000);    
-        }
-    );
-    
     //back to top
     
     // hide #back-top first
