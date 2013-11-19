@@ -1,7 +1,7 @@
 $(document).ready(function(){
     
     //mouse over menu items in header
-    $('#header_services_a, #header_about_a, #header_contact_a').hover(
+    $('#header_aboutus_a, #header_openinghours_a, #header_requestappointment_a, #header_payment_a').hover(
         function(){
         $(this).css('color','red');
         },
@@ -10,24 +10,38 @@ $(document).ready(function(){
     });
     
     //slow scrolling when clicking on menu items in header
-    $('#header_services_a').click(
+    $('#header_aboutus_a').click(
         function(event){
             event.preventDefault();
-            $.scrollTo('#services', 1000);    
+            $.scrollTo('#aboutus', 1000);    
         }
     );
     
-    $('#header_about_a').click(
+    $('#header_openinghours_a').click(
         function(event){
             event.preventDefault();
-            $.scrollTo('#about', 1000);    
+            $.scrollTo('#openinghours', 1000);    
         }
     );
     
-    $('#header_contact_a').click(
+    $('#header_requestappointment_a').click(
         function(event){
             event.preventDefault();
-            $.scrollTo('#contact', 1000);    
+            $.scrollTo('#requestappointment', 1000);    
+        }
+    );
+    
+    $('#header_payment_a').click(
+        function(event){
+            event.preventDefault();
+            $.scrollTo('#payment', 1000);    
+        }
+    );
+    
+    $('#appointment_a').click(
+        function(event){
+            event.preventDefault();
+            $.scrollTo('#requestappointment', 1000);    
         }
     );
     

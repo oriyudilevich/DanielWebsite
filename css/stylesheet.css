@@ -23,17 +23,15 @@ body{
     color: black;
 }
 
-/* HOMEPAGE 
+/* HEADER
 ============================================*/
-
-/* Header */
 
 #header {
     height: 70px;
     position:relative;
-    margin-left:5px;
+    margin-left:100px;
     margin-top:30px;
-    font-size:130%;
+    font-size:115%;
 }
 
 #header a {
@@ -42,11 +40,11 @@ body{
     opacity: 0.7;
 }
 
-#header_services {
+#header_aboutus {
     margin-right:20px;
 }
 
-#header_services a {
+#header_aboutus a {
 }
 
 #header_separator1{
@@ -54,12 +52,12 @@ body{
     opacity: 0.7;
 }
 
-#header_about {
+#header_openinghours {
     margin-right:20px;
     margin-left:20px;
 }
 
-#header_about a {
+#header_openinghours a {
 }
 
 #header_separator2{
@@ -67,22 +65,36 @@ body{
     opacity: 0.7;
 }
 
-#header_contact {
+#header_requestappointment {
+    margin-left:20px;
+    margin-right:20px;
+}
+
+#header_requestappointment a {   
+}
+
+#header_separator3{
+    color:black;
+    opacity: 0.7;
+}
+
+#header_payment {
     margin-left:20px;
 }
 
-#header_contact a {   
+#header_payment a {   
 }
 
-/* Slide show */
+/* SLIDE SHOW
+============================================*/
 
 
 .fader{
     position: absolute;
-    top: 20px;
-    left: 500px;
-    width: 600px;
-    height: 360px;
+    top: 85px;
+    left: 470px;
+    width: 450px;
+    height: 270px;
     overflow: hidden;
     border-radius: 15px;
 }
@@ -103,7 +115,7 @@ body{
 .fader_controls{
     position: absolute;
     bottom: 10px;
-    left: 265px;
+    left: 200px;
     z-index: 4;
     background: darkgray;
     height: 12px;
@@ -125,18 +137,20 @@ body{
     background:url("../images/buttonred.jpg") 0 0 no-repeat;
 }
 
-/* Title */
+/* TITLE
+============================================*/
 
 #title{
     position:relative;
     width:500px;
-    height:150px;
+    height:130px;
     font-family: 'Signika', sans-serif;
+    margin-left: 20px;
 }
 
 #title_main{
     position:absolute;
-    font-size:300%;
+    font-size:270%;
     color:darkblue;
     left:0px;
     top:0px;
@@ -144,84 +158,115 @@ body{
 
 #title_sub{
     position:absolute;
-    font-size:200%;
+    font-size:180%;
     color:darkblue;
     left:0px;
     top:60px;
 }
 
+/* REASONS
+============================================*/
+
 #reasons{
     position:relative;
     height:100px;
-    margin-left:50px;
+    margin-left:70px;
 }
 
 #reason_1{
-    position:absolute;
-    top:0px;
+    margin-bottom:5px;
 }
 
 #reason_2{
-    position:absolute;
-    top:20px;
+    margin-bottom:5px;
 }
 
 #reason_3{
-    position:absolute;
-    top:40px;
+    margin-bottom:5px;
 }
 
 #reason_4{
-    position:absolute;
-    top:60px;
+    margin-bottom:5px;
 }
 
-#appointment{
-    font-size: 150%;   
-    margin-left: 20px;
-    height:300px;
-}
-
-/* SERVICES
+/* APPOINTMENT
 ============================================*/
 
-#services{
+#appointment{
+    position:relative;
+    font-size: 150%;   
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 50px;
+    width: 300px;
+    background-color:lightgray;
+    border-radius:10px;
+    margin-bottom:200px;
+}
+
+#appointment_a{
+    position:absolute;
+    top: 10px;
+    left: 30px;
+    text-decoration:none;
+    color:darkblue;
+}
+
+/* About Us
+============================================*/
+
+#aboutus{
     font-size:200%;
     font-family: 'Signika', sans-serif;
     color:red;
     opacity: 0.8;
 }
 
-#services_content{
+#aboutus_content{
     width: 400px;
     height:600px;
 }
 
-/* ABOUT 
+/* Opening Hours
 ============================================*/
 
-#about{
+#openinghours{
     font-size:200%;
     font-family: 'Signika', sans-serif;
     color:darkblue;
 }
 
-#about_content{
+#openinghours_content{
     width: 400px;
     height:600px;
 }
 
-/* CONTACT 
+/* Request Appointment 
 ============================================*/
 
-#contact{
+#requestappointment{
    font-size:200%;
    font-family: 'Signika', sans-serif;
    color:red;
    opacity: 0.8;
 }
 
-#contact_content{
+#requestappointment_content{
+    width: 400px;
+    height:600px;
+}
+
+/* Payment and Billing
+============================================*/
+
+#payment{
+   font-size:200%;
+   font-family: 'Signika', sans-serif;
+   color:darkblue;
+   opacity: 0.8;
+}
+
+#payment_content{
     width: 400px;
     height:600px;
 }
