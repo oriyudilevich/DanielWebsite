@@ -52,11 +52,26 @@ $(document).ready(function(){
     
     // fade in #back-top
     $(function () {
+        
+        var position = $("#back_top a").offset();
+        var position_f = $("#footer").offset();
+    
         $(window).scroll(function () {
             if ($(this).scrollTop() > 100) {
                 $('#back_top').fadeIn();
-            } else {
+            } 
+            else {
                 $('#back_top').fadeOut();
+            }
+    
+            var position = $("#back_top a").offset();
+            var position_f = $("#footer").offset();
+            
+            if (position.top > position_f.top - 10){
+                $('#back_top a').css('color','white');
+            }
+            else {
+                $('#back_top a').css('color','gray');
             }
         });
 
