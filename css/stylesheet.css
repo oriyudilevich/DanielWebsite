@@ -110,9 +110,9 @@ body{
 .fader{
     position: absolute;
     top: 85px;
-    left: 600px;
-    width: 450px;
-    height: 270px;
+    left: 570px;
+    width: 480px;
+    height: 288px;
     overflow: hidden;
     border-radius: 15px;
 }
@@ -133,7 +133,7 @@ body{
 .fader_controls{
     position: absolute;
     bottom: 10px;
-    left: 200px;
+    left: 205px;
     z-index: 4;
     background: darkgray;
     height: 12px;
@@ -168,14 +168,8 @@ body{
 
 #title_main{
     position: relative;
-    font-size:270%;
-    color:darkblue;
-}
-
-#title_sub{
-    position:relative;
-    top:-5px;
-    font-size:180%;
+    margin-top: 10px;
+    font-size:240%;
     color:darkblue;
 }
 
@@ -188,7 +182,7 @@ body{
 
 #reasons{
     position:relative;
-    margin-top:30px;
+    margin-top:0px;
     height:100px;
     margin-left:200px;
 }
