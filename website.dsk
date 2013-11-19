@@ -1,14 +1,17 @@
 [Files]
 File0=C:\Users\Ori\Dropbox\Daniel's Website\js\script.js
-IsActive0=1
-ZIndex2=0
-File1=C:\Users\Ori\Dropbox\Daniel's Website\css\stylesheet.css
+IsActive0=0
+ZIndex3=1
+File1=C:\Users\Ori\Dropbox\Daniel's Website\js\popup.js
 IsActive1=0
-ZIndex1=1
-File2=C:\Users\Ori\Dropbox\Daniel's Website\index.html
+ZIndex2=3
+File2=C:\Users\Ori\Dropbox\Daniel's Website\css\stylesheet.css
 IsActive2=0
-ZIndex0=2
-Files=3
+ZIndex1=2
+File3=C:\Users\Ori\Dropbox\Daniel's Website\index.html
+IsActive3=1
+ZIndex0=0
+Files=4
 
 [breakpoints]
 bp_count=0

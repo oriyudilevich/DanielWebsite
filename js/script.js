@@ -54,5 +54,10 @@ $(document).ready(function(){
             return false;
         });
     });
+    
+    $('#Fader').easyFader({
+        slideDur: 3500,
+        fadeDur: 1200
+    });
 });
     

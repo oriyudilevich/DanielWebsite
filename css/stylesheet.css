@@ -26,6 +26,8 @@ body{
 /* HOMEPAGE 
 ============================================*/
 
+/* Header */
+
 #header {
     height: 70px;
     position:relative;
@@ -72,10 +74,58 @@ body{
 #header_contact a {   
 }
 
-#picture{
-    position:absolute;
-    left: 600px;
+/* Slide show */
+
+
+.fader{
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    width: 600px;
+    height: 360px;
+    overflow: hidden;
+    border-radius: 15px;
 }
+
+.fader .slide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    opacity: 0;
+}
+
+.fader .img.slide{      
+
+}
+
+.fader_controls{
+    position: absolute;
+    bottom: 10px;
+    left: 265px;
+    z-index: 4;
+    background: darkgray;
+    height: 12px;
+    width: 42px;
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-top: 2px;
+}
+
+.fader_controls .page{
+    float: left;
+    background:url("../images/buttonwhite.jpg") 0 0 no-repeat;
+    width: 10px;
+    height: 10px;
+    margin-right: 4px;
+}
+
+.fader_controls .active{
+    background:url("../images/buttonred.jpg") 0 0 no-repeat;
+}
+
+/* Title */
 
 #title{
     position:relative;
