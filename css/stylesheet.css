@@ -42,6 +42,7 @@ body{
 
 #popup_content span{
     font-size:150%;
+    color: darkblue;
 }
 
 #backgroundPopup { 
@@ -55,7 +56,6 @@ body{
     left:0px;
 }
 #toPopup {
-    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
     background: none repeat scroll 0 0 #FFFFFF;
     border: 10px solid #ccc;
     border-radius: 3px 3px 3px 3px;
@@ -436,7 +436,7 @@ span.arrow {
     position: relative;
     font-size:150%;
     font-family: 'Signika', sans-serif;
-    color:red;
+    color:darkblue;
     opacity: 0.8;    
 }
 
