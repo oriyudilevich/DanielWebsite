@@ -15,6 +15,8 @@
         <link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
         
     </head>
+    
+    
     <body>
     
     
@@ -25,93 +27,107 @@
         <a href="#top"><span></span>Back to Top</a>
     </div>
     
+    <!-- Appointment Popup (opens when menu option is clicked or appointment button is clicked)
+    =====================================================-->
     
-    <!-- Home Page 
+    <div id="toPopup">
+
+        <div class="close"></div>
+        <span class="ecs_tooltip">Press Esc to close<span class="arrow"></span></span>
+        <div id="popup_content">
+            <span>Coming soon...</span> Make your appointment online!<br><br>
+            For the time being, please call 070-2000193 to make an appointment.<br><br>
+            Please bring with you to your first appointment a valid identity card, and in case you have any medical limitations, a letter from your family doctor.  
+        </div> <!-- end of popup content -->
+
+    </div> <!-- end of toPopup -->
+
+    <div class="loader"></div>
+    <div id="backgroundPopup"></div>
+    
+    
+    <!-- Header 
     =====================================================-->
     
         <div id="header">
+        
+            <span id="header_location"><a id="header_location_a" href="#location">Location</a></span>
             
-            <div id="header_content">
-                
-                <span id="header_location"><a id="header_location_a" href="#location">Location</a></span>
-                
-                <span id="header_separator1">|</span>
-                
-                <span id="header_openinghours"><a id="header_openinghours_a" href="#openinghours">Opening Hours</a></span>
-                
-                <span id="header_separator2">|</span>
+            <span id="header_separator1">|</span>
             
-                <span id="header_requestappointment"><a class="topopup" id="header_requestappointment_a" href="#requestappointment">Request Appointment</a></span>
-                
-                <span id="header_separator3">|</span>
-                
-                <span id="header_aboutus"><a id="header_aboutus_a" href="#aboutus">About Us</a></span>
-                
-                <span id="header_separator4">|</span>
+            <span id="header_openinghours"><a id="header_openinghours_a" href="#openinghours">Opening Hours</a></span>
             
-                <span id="header_payment"><a id="header_payment_a" href="#payment">Payment and Billing</a></span>
+            <span id="header_separator2">|</span>
+            
+            <span id="header_requestappointment"><a class="topopup" id="header_requestappointment_a" href="#requestappointment">Make Appointment</a></span>
+            
+            <span id="header_separator3">|</span>
+                
+            <span id="header_aboutus"><a id="header_aboutus_a" href="#aboutus">About Us</a></span>
+                
+            <span id="header_separator4">|</span>
+            
+            <span id="header_payment"><a id="header_payment_a" href="#payment">Payment and Billing</a></span>
+            
+        </div>
+        
+        <div id="topsection">
+    
+    <!-- Left Block on top (title, reasons and appointment button) 
+    =====================================================-->
+        
+        <div id="leftblock">
+        
+            <div id="title">
+        
+                <div id="title_main">The Hague Dental Care</div>
+            
+                <div id="title_address">
+                Muzenplein 91, 2511GD, The Hague<br>
+                Tel: 070-2000193
+                </div>
+        
+            </div>
+        
+            <div id="reasons">
+            
+                <div id="reason_1">- Flexible working hours</div>
+            
+                <div id="reason_2">- Great location</div>
+            
+                <div id="reason_3">- Personal treatment</div>
+            
+                <div id="reason_4">- Serene Environment</div>
+            
+            </div>
+        
+            <div id="appointment">
+            
+                <div id="appointment_content"><a href="#" id="appointment_a" class="topopup">Make Appointment</a></div>
 
-            
-            </div>
-            
-        </div>
-        
-        <!-- Slide Show -->
-        
-        <div id="Fader" class="fader">
-            <img class="slide" src="images/pics-homepage1.jpg">
-            <img class="slide" src="images/pics-homepage2.jpg">
-            <img class="slide" src="images/pics-homepage3.jpg">
-            <div class="fader_controls">
-            </div>
-        </div>
-        
-        <div id="title">
-        
-            <div id="title_main">The Hague Dental Care</div>
-            
-            <div id="title_address">
-            Muzenplein 91, 2511GD, The Hague<br>
-            Tel: 070-2000193
             </div>
         
         </div>
         
-        <div id="reasons">
-            
-            <div id="reason_1">- Flexible working hours</div>
-            
-            <div id="reason_2">- Great location</div>
-            
-            <div id="reason_3">- Personal treatment</div>
-            
-            <div id="reason_4">- Serene Environment</div>
-            
-        </div>
-        
-     <!-- Making an appointment
+
+    <!-- Right block on top (slide show)
     ====================================-->
+    
+        <div id="rightblock">
         
-        <div id="appointment">
+            <div id="Fader" class="fader">
+                <img class="slide" src="images/pics-homepage1.jpg">
+                <img class="slide" src="images/pics-homepage2.jpg">
+                <img class="slide" src="images/pics-homepage3.jpg">
+                <div class="fader_controls">
+                </div>
+            </div>
             
-            <a href="#" id="appointment_a" class="topopup">Request Appointment</a>
-
-            <div id="toPopup">
-
-                <div class="close"></div>
-                <span class="ecs_tooltip">Press Esc to close<span class="arrow"></span></span>
-                <div id="popup_content">
-                    <p>Here we will implement an interface to the appointment database.</p>
-
-                </div> <!-- end of popup content -->
-
-            </div> <!-- end of toPopup -->
-
-            <div class="loader"></div>
-            <div id="backgroundPopup"></div>
-
         </div>
         
+        </div>
+        
+
     
         
         
