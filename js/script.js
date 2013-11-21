@@ -8,6 +8,7 @@ $(document).ready(function(){
         function(){
         $(this).css('color','black');
     });
+
     
     //slow scrolling when clicking on menu items in header
     $('#header_aboutus_a').click(
@@ -68,15 +69,40 @@ $(document).ready(function(){
             var position_f = $("#footer").offset();
             
             if (position.top > position_f.top - 10){
-                $('#back_top a').css('color','white');
+                $('#back_top_container a').css('color','white');
+                $('#back_top_container').css('background','gray');
             }
             else {
-                $('#back_top a').css('color','gray');
+                $('#back_top_container a').css('color','gray');
+                $('#back_top_container').css('background','white');
+            }
+        });
+        
+        //mouse over back to top
+        $('#back_top_container a').hover(
+            function(){
+            var position = $("#back_top a").offset();
+            var position_f = $("#footer").offset();
+            if (position.top > position_f.top - 10){
+                $('#back_top_container a').css('color','lightgray');
+            }
+            else {
+                $('#back_top_container a').css('color','red');
+            }
+            },
+            function(){    
+            var position = $("#back_top a").offset();
+            var position_f = $("#footer").offset();                
+            if (position.top > position_f.top - 10){
+                $('#back_top_container a').css('color','white');
+            }
+            else {
+                $('#back_top_container a').css('color','gray');
             }
         });
 
         // scroll body to 0px on click
-        $('#back_top a').click(function () {
+        $('#back_top_container a').click(function () {
             $('body,html').animate({
                 scrollTop: 0
             }, 800);
