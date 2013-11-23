@@ -1,7 +1,7 @@
 $(document).ready(function(){
     
     //mouse over menu items in header
-    $('#header_aboutus_a, #header_openinghours_a, #header_location_a, #header_requestappointment_a, #header_payment_a').hover(
+    $('#header_aboutus_a, #header_openinghours_a, #header_location_a, #header_requestappointment_a, #header_payment_a, #header_english_a, #header_dutch_a').hover(
         function(){
         $(this).css('color','black');
         $(this).parent().css('border-color','lightgray');
