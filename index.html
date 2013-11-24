@@ -14,7 +14,11 @@
         <link href='http://fonts.googleapis.com/css?family=Stalemate' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
         
+        <link rel="icon" type="image/gif" href="images/Check.gif">
+        
     </head>
+    
+    
     <body>
     
     
@@ -22,98 +26,124 @@
     =====================================================-->
     
     <div id="back_top">
-        <a href="#top"><span></span>Back to Top</a>
+        <div id="back_top_content">
+            <div id="back_top_container"><a href="#top"><span></span>Back to Top</a></div>
+        </div>
     </div>
     
+    <!-- Appointment Popup (opens when menu option is clicked or appointment button is clicked)
+    =====================================================-->
     
-    <!-- Home Page 
+    <div id="toPopup">
+
+        <div class="close"></div>
+        <span class="ecs_tooltip">Press Esc to close<span class="arrow"></span></span>
+        <div id="popup_content">
+            <span>Coming soon...</span> Make your appointment online!<br><br>
+            For the time being, please call 070-2000193 to make an appointment.<br><br>
+            Please bring with you to your first appointment a valid identity card, and in case you have any medical limitations, a letter from your family doctor.  
+        </div> <!-- end of popup content -->
+
+    </div> <!-- end of toPopup -->
+
+    <div class="loader"></div>
+    <div id="backgroundPopup"></div>
+    
+    
+    <!-- Header 
     =====================================================-->
     
         <div id="header">
+        
+        <div id="header_content">
+        
+            <span id="header_logo"><img src="images/Tooth.gif">The Hague Dentist</span>
             
-            <div id="header_content">
-                
-                <span id="header_location"><a id="header_location_a" href="#location">Location</a></span>
-                
-                <span id="header_separator1">|</span>
-                
-                <span id="header_openinghours"><a id="header_openinghours_a" href="#openinghours">Opening Hours</a></span>
-                
-                <span id="header_separator2">|</span>
+            <span id="header_location" class="container"><a id="header_location_a" href="#location">Location</a></span>
             
-                <span id="header_requestappointment"><a class="topopup" id="header_requestappointment_a" href="#requestappointment">Request Appointment</a></span>
-                
-                <span id="header_separator3">|</span>
-                
-                <span id="header_aboutus"><a id="header_aboutus_a" href="#aboutus">About Us</a></span>
-                
-                <span id="header_separator4">|</span>
+            <span class="separator">|</span>
             
-                <span id="header_payment"><a id="header_payment_a" href="#payment">Payment and Billing</a></span>
+            <span id="header_openinghours" class="container"><a id="header_openinghours_a" href="#openinghours">Opening Hours</a></span>
+            
+            <span class="separator">|</span>
+            
+            <span id="header_requestappointment" class="container"><a class="topopup" id="header_requestappointment_a" href="#requestappointment">Make an Appointment</a></span>
+            
+            <span class="separator">|</span>
+                
+            <span id="header_aboutus" class="container"><a id="header_aboutus_a" href="#aboutus">About Us</a></span>
+                
+            <span class="separator">|</span>
+            
+            <span id="header_payment" class="container"><a id="header_payment_a" href="#payment">Payment and Billing</a></span>
+            
+            <span class="separator">|</span>
+             
+            <span id="header_english">EN</span>
+            
+            <span id="header_dutch" class="container"><a id="header_dutch_a" href="dutch.html">NL</a></span>
+            
+        </div>
+        
+        </div>
+        
+        <div id="topsection">
+    
+    <!-- Left Block on top (title, reasons and appointment button) 
+    =====================================================-->
+        
+        <div id="leftblock">
+        
+            <div id="title">
+        
+                <div id="title_main">The Hague Dental Care</div>
+            
+                <div id="title_address">
+                Muzenplein 91, 2511GD, The Hague<br>
+                Tel: 070-2000193
+                </div>
+        
+            </div>
+        
+            <div id="reasons">
+            
+                <div id="reason_1"><img src="images/check.gif"> Flexible working hours</div>
+            
+                <div id="reason_2"><img src="images/check.gif"> Great location</div>
+            
+                <div id="reason_3"><img src="images/check.gif"> Personal treatment</div>
+            
+                <div id="reason_4"><img src="images/check.gif"> Serene environment</div>
+            
+            </div>
+        
+            <div id="appointment">
+            
+                <div id="appointment_content"><a href="#" id="appointment_a" class="topopup">Make an Appointment</a></div>
 
-            
-            </div>
-            
-        </div>
-        
-        <!-- Slide Show -->
-        
-        <div id="Fader" class="fader">
-            <img class="slide" src="images/pics-homepage1.jpg">
-            <img class="slide" src="images/pics-homepage2.jpg">
-            <img class="slide" src="images/pics-homepage3.jpg">
-            <div class="fader_controls">
-            </div>
-        </div>
-        
-        <div id="title">
-        
-            <div id="title_main">Dr. Daniel Finkelman</div>
-            
-            <div id="title_sub">The Hague Dental Care</div>
-            
-            <div id="title_address">
-            Muzenplein 91, 2511GD, The Hague<br>
-            Tel: 070-2000193
             </div>
         
         </div>
         
-        <div id="reasons">
-            
-            <div id="reason_1">- Flexible working hours</div>
-            
-            <div id="reason_2">- Great location</div>
-            
-            <div id="reason_3">- Personal treatment</div>
-            
-            <div id="reason_4">- Serene Environment</div>
-            
-        </div>
-        
-     <!-- Making an appointment
+
+    <!-- Right block on top (slide show)
     ====================================-->
+    
+        <div id="rightblock">
         
-        <div id="appointment">
+            <div id="Fader" class="fader">
+                <img class="slide" src="images/pics-homepage1.jpg">
+                <img class="slide" src="images/pics-homepage2.jpg">
+                <img class="slide" src="images/pics-homepage3.jpg">
+                <div class="fader_controls">
+                </div>
+            </div>
             
-            <a href="#" id="appointment_a" class="topopup">Make an appointment</a>
-
-            <div id="toPopup">
-
-                <div class="close"></div>
-                <span class="ecs_tooltip">Press Esc to close<span class="arrow"></span></span>
-                <div id="popup_content">
-                    <p>Here we will implement an interface to the appointment database.</p>
-
-                </div> <!-- end of popup content -->
-
-            </div> <!-- end of toPopup -->
-
-            <div class="loader"></div>
-            <div id="backgroundPopup"></div>
-
         </div>
         
+        </div>
+        
+
     
         
         
@@ -127,7 +157,7 @@
         
             <div id="location">
         
-                <div id="location_title">Location</div>
+                <div id="location_title"><a href="something.html"><img id="location_content_img" src="images/googlemaps.png"></a> Location</div>
         
                 <div id="location_content">
                 Muzenplein 91, 2511GD, The Hague<br><br>
@@ -190,7 +220,7 @@
             Dental Medical Doctor<br>
             B.Sc. Psychology <br><br>
             Dr. Daniel Finkelman has extensive experience in diverse fields of dentistry, including rehabilitation, pediatric dentistry and endodontistry (root canals). Dr. Finkelman specializes in treating patients with dental anxiety, both children and adults. <br><br>
-            We provide state of art family dentistry with emphasis on prevention, aesthetics and comfort. <br><br>
+            We provide state of the art family dentistry with emphasis on prevention, aesthetics and comfort. <br><br>
             We strongly believe that dentistry can and should be pain free, and each patient's needs, concerns and demands should be addressed. 
             </div>
         
@@ -207,10 +237,17 @@
             <div id="payment_title">Payment and Billing</div>
         
             <div id="payment_content">
-            In The Netherlands the government determines the rate of dental treatments in <a target=_blank href="http://www.tandarts.nl/tarieven-verzekering/rekeningen/wat_kost_een_behandeling">uniform codes</a>  (aka UPT). All dentists working in the Netherlands are obliged to adhere to these codes. <br><br>
-            We will issue an invoice for you immediately at the end of every appointment. You will have the choice of either paying at our clinic by cash, debit or credit card, or at a later stage (up to 14 days from the appointment) via bank transfer. 
+            In The Netherlands, the government determines the rate of dental treatments in <a target=_blank href="http://www.tandarts.nl/tarieven-verzekering/rekeningen/wat_kost_een_behandeling">uniform codes</a>  (aka UPT). All dentists working in the Netherlands are obliged to adhere to these codes. <br><br>
+            We will issue an invoice for you immediately at the end of every appointment. You will have the choice of either paying at our clinic by cash, debit or credit card, or at a later stage (up to 14 days after the appointment) via bank transfer. 
             </div>
             
+        </div>
+        
+    <!-- Footer
+    ====================================-->
+    
+        <div id="footer">
+            <div id="footer_credits">Website created by Misha Veldhoen & Ori Yudilevich</div>
         </div>
     
     </body>

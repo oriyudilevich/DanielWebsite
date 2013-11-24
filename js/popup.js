@@ -23,7 +23,7 @@ jQuery(function($) {
 	});
 	
 	$(this).keyup(function(event) {
-		if (event.which == 27) { // 27 is 'Ecs' in the keyboard
+		if (event.which == 27) { // 27 is 'Esc' in the keyboard
 			disablePopup();  // function close pop up
 		}  	
 	});
