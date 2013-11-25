@@ -47,7 +47,7 @@ body{
 /* POPUP WINDOW
 ============================================*/
 
-#popup_content {
+.popup_content {
     margin: 4px 7px;
     width:440px;
     padding-left:20px;
@@ -55,9 +55,16 @@ body{
     padding-bottom:20px;
 }
 
-#popup_content span{
+.popup_content span{
     font-size:150%;
     color: darkblue;
+}
+
+#map_canvas {
+    width: 500px;
+    height: 400px;
+    top: -30px;
+    /*background-color: #CCC; */
 }
 
 #backgroundPopup { 
@@ -83,15 +90,19 @@ body{
     width: 500px;
     z-index: 22;
 }
-div.loader {
-    background: url("../images/loading.gif") no-repeat scroll 0 0 transparent;
-    height: 32px;
-    width: 32px;
+#mapsPopup {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 10px solid #ccc;
+    border-radius: 3px 3px 3px 3px;
+    color: #333333;
     display: none;
-    z-index: 9999;
+    font-size: 90%;
     position: fixed;
-    top: 300px;
-    left: 600px;
+    top: 50px;
+    left: 350px;
+    width: 500px;
+    height: 400px;
+    z-index: 22;
 }
 div.close {
     background: url("../images/closebox.png") no-repeat scroll 0 0 transparent;
@@ -103,32 +114,7 @@ div.close {
     position: relative;
     width: 30px;
 }
-span.ecs_tooltip {
-    background: none repeat scroll 0 0 #000000;
-    border-radius: 2px 2px 2px 2px;
-    color: #FFFFFF;
-    display: none;
-    font-size: 11px;
-    height: 16px;
-    opacity: 0.7;
-    padding: 4px 3px 2px 5px;
-    position: absolute;
-    right: -69px;
-    text-align: center;
-    top: -51px;
-    width: 100px;
-}
-span.arrow {
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 7px solid #000000;
-    display: block;
-    height: 1px;
-    left: 40px;
-    position: relative;
-    top: 3px;
-    width: 1px;
-}
+
 
 /* HEADER
 ============================================*/
