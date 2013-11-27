@@ -26,6 +26,7 @@ jQuery(function($) {
 	// -----------------
 	
 	var popupOnScreen = 0;
+	var map; // Pointer to the google map.
 	
 	function loadPopup(number) { 
 		if(popupOnScreen == 0) {
@@ -35,6 +36,7 @@ jQuery(function($) {
 					break;
 				case 2:
 					$("#mapsPopup").fadeIn(0500);
+					loadGoogleMap();
 					break;	
 			}
 
@@ -52,11 +54,32 @@ jQuery(function($) {
 					break;
 				case 2:
 					$("#mapsPopup").fadeOut("normal");
+					delete map;
 					break;
 			}  
 			$("#backgroundPopup").fadeOut("normal");  
 			popupOnScreen = 0;
 		}
+	}
+	
+	function loadGoogleMap() {
+
+		// Create an instance of the map.
+		var map_options = {
+			center: new google.maps.LatLng(52.080042,4.319639),
+			zoom: 14,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		}
+		map = new google.maps.Map(document.getElementById('map_canvas'), map_options);
+
+		// Add a marker at Daniel's.
+		var image = 'images/markerdani.pdf';
+  		var myLatLng = new google.maps.LatLng(52.080042,4.319639);
+  		var beachMarker = new google.maps.Marker({
+      		position: myLatLng,
+     		map: map,
+      		icon: image
+		});
 	}
 
 });
