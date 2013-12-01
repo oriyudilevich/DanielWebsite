@@ -20,16 +20,28 @@
         
     </head>
     
-    
     <body>
     
+    <!-- Language settings
+    =====================================================-->
+    <?php
+        // I18N support information here
+        $language = 'nl';
+        putenv("LANG=$language"); 
+        setlocale(LC_ALL, $language);
+
+        // Set the text domain as 'messages'
+        $domain = 'messages';
+        bindtextdomain($domain, "/Users/mishaveldhoen/Dropbox/Projects/DanielWebsite/locale"); 
+        textdomain($domain);
+    ?>
     
     <!-- Back to Top
     =====================================================-->
     
     <div id="back_top">
         <div id="back_top_content">
-            <div id="back_top_container"><a href="#top"><span></span>Back to Top</a></div>
+            <div id="back_top_container"><a href="#top"><span></span><?php echo gettext("Back to Top")?></a></div>
         </div>
     </div>
     
@@ -61,23 +73,23 @@
         
             <!-- <span id="header_logo"><img src="images/Tooth.gif">The Hague Dentist</span> -->
             
-            <span id="header_location" class="container"><a id="header_location_a" href="#location">Location</a></span>
+            <span id="header_location" class="container"><a id="header_location_a" href="#location"><?php echo gettext("Location")?></a></span>
             
             <span class="separator">|</span>
             
-            <span id="header_openinghours" class="container"><a id="header_openinghours_a" href="#openinghours">Opening Hours</a></span>
+            <span id="header_openinghours" class="container"><a id="header_openinghours_a" href="#openinghours"><?php echo gettext("Opening Hours")?></a></span>
             
             <span class="separator">|</span>
             
-            <span id="header_requestappointment" class="container"><a class="topopup" id="header_requestappointment_a" href="#requestappointment">Make an Appointment</a></span>
+            <span id="header_requestappointment" class="container"><a class="topopup" id="header_requestappointment_a" href="#requestappointment"><?php echo gettext("Make an Appointment")?></a></span>
             
             <span class="separator">|</span>
                 
-            <span id="header_aboutus" class="container"><a id="header_aboutus_a" href="#aboutus">About Us</a></span>
+            <span id="header_aboutus" class="container"><a id="header_aboutus_a" href="#aboutus"><?php echo gettext("About Us")?></a></span>
                 
             <span class="separator">|</span>
             
-            <span id="header_payment" class="container"><a id="header_payment_a" href="#payment">Payment and Billing</a></span>
+            <span id="header_payment" class="container"><a id="header_payment_a" href="#payment"><?php echo gettext("Payment and Billing")?></a></span>
             
             <!-- <span class="separator">|</span>
              
