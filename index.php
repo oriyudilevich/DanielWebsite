@@ -25,10 +25,6 @@
     <!-- Language settings
     =====================================================-->
     <?php
-        // Set the path to the location of index.php
-        $path = dirname(getenv(PATH_TRANSLATED)); 
-        chdir($path);
-
         // Obtain the desired language
         $language = $_GET['language'];
         putenv("LANG=$language"); 
@@ -36,7 +32,7 @@
 
         // Set the text domain as 'messages'
         $domain = 'messages';
-        bindtextdomain($domain, "./locale"); 
+        bindtextdomain($domain, getcwd()."/locale"); 
         textdomain($domain);
     ?>
     
