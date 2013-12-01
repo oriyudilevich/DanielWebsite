@@ -25,14 +25,18 @@
     <!-- Language settings
     =====================================================-->
     <?php
-        // I18N support information here
+        // Set the path to the location of index.php
+        $path = dirname(getenv(PATH_TRANSLATED)); 
+        chdir($path);
+
+        // Obtain the desired language
         $language = $_GET['language'];
         putenv("LANG=$language"); 
         setlocale(LC_ALL, $language);
 
         // Set the text domain as 'messages'
         $domain = 'messages';
-        bindtextdomain($domain, "/Users/mishaveldhoen/Dropbox/Projects/DanielWebsite/locale"); 
+        bindtextdomain($domain, "./locale"); 
         textdomain($domain);
     ?>
     
