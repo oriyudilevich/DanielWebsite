@@ -51,9 +51,9 @@
     <div id="toPopup">
         <div class="close"></div>
         <div class="popup_content">
-            <span>Coming soon...</span> Make your appointment online!<br><br>
-            For the time being, please call 070-2000193 to make an appointment.<br><br>
-            Please bring with you to your first appointment a valid identity card, and in case you have any medical limitations, a letter from your family doctor.  
+            <span><?php echo gettext("Coming soon...")?></span> <?php echo gettext("Make your appointment online!")?><br><br>
+            <?php echo gettext("For the time being, please call 070-2000193 to make an appointment.")?><br><br>
+            <?php echo gettext("Please bring with you to your first appointment a valid identity card, and in case you have any medical limitations, a letter from your family doctor.")?>  
         </div>
     </div>
 
@@ -170,7 +170,7 @@
         <div id="openinghourslocation">
         
             <div id="location">
-                <div id="location_title"><!-- <a class="mapspopup" href="#"><img id="location_content_img" src="images/googlemaps.png"></a>--> Location</div>
+                <div id="location_title"><!-- <a class="mapspopup" href="#"><img id="location_content_img" src="images/googlemaps.png"></a>--> <?php echo gettext("Location")?></div>
         
                 <div id="location_content">
                 Muzenplein 91, 2511GD, <?php echo gettext("The Hague")?><br><br>
@@ -178,8 +178,8 @@
                 <?php echo gettext("3 minutes walk from The Hague Central Station")?><br>
                 <?php echo gettext("Tram lines: 3, 4, 9, 15, 16, 17 (The Hague Cantral Station)")?><br><br>
                 <b><?php echo gettext("Car parking")?></b><br>
-                Q-Park, Zwarteweg 40, 2511VS, <?php echo gettext("Den Haag")?><br>
-                Q-Park, Fluwelen Burgwal 46, 2511CJ, <?php echo gettext("Den Haag")?><br>
+                Q-Park, Zwarteweg 40, 2511VS, <?php echo gettext("The Hague")?><br>
+                Q-Park, Fluwelen Burgwal 46, 2511CJ, <?php echo gettext("The Hague")?><br>
                 </div>
             
             </div>
@@ -191,13 +191,13 @@
                 <div id="openinghours_content">
                 
                     <div id="openinghours_days">
-                    Monday<br>
-                    Tuesday<br>
-                    Wednesday<br>
-                    Thursday<br>
-                    Friday<br>
-                    Saturday<br>
-                    Sunday<br>
+                    <?php echo gettext("Monday")?><br>
+                    <?php echo gettext("Tuesday")?><br>
+                    <?php echo gettext("Wednesday")?><br>
+                    <?php echo gettext("Thursday")?><br>
+                    <?php echo gettext("Friday")?><br>
+                    <?php echo gettext("Saturday")?><br>
+                    <?php echo gettext("Sunday")?><br>
                     </div>
                     
                     <div id="openinghours_hours">
@@ -232,9 +232,9 @@
             <b>Dr. Daniel Finkelman</b><br>
             <?php echo gettext("Dental Medical Doctor")?><br>
             <?php echo gettext("B.Sc. Psychology")?><br><br>
-            Dr. Daniel Finkelman has extensive experience in diverse fields of dentistry, including rehabilitation, pediatric dentistry and endodontistry (root canals). Dr. Finkelman specializes in treating patients with dental anxiety, both children and adults. <br><br>
-            We provide state of the art family dentistry with emphasis on prevention, aesthetics and comfort. <br><br>
-            We strongly believe that dentistry can and should be pain free, and each patient's needs, concerns and demands should be addressed. 
+            <?php echo gettext("Dr. Daniel Finkelman has extensive experience in diverse fields of dentistry, including rehabilitation, pediatric dentistry and endodontistry (root canals). Dr. Finkelman specializes in treating patients with dental anxiety, both children and adults.")?> <br><br>
+            <?php echo gettext("We provide state of the art family dentistry with emphasis on prevention, aesthetics and comfort.")?> <br><br>
+            <?php echo gettext("We strongly believe that dentistry can and should be pain free, and each patient's needs, concerns and demands should be addressed. ")?>
             </div>
         
         </div>
@@ -250,8 +250,8 @@
             <div id="payment_title"><?php echo gettext("Payment and Billing")?></div>
         
             <div id="payment_content">
-            In The Netherlands, the government determines the rate of dental treatments in <a target=_blank href="http://www.tandarts.nl/tarieven-verzekering/rekeningen/wat_kost_een_behandeling">uniform codes</a>  (aka UPT). All dentists working in the Netherlands are obliged to adhere to these codes. <br><br>
-            We will issue an invoice for you immediately at the end of every appointment. You will have the choice of either paying at our clinic by cash, debit or credit card, or at a later stage (up to 14 days after the appointment) via bank transfer. 
+            <?php echo gettext("In The Netherlands, the government determines the rate of dental treatments in ")?><a target=_blank href="http://www.tandarts.nl/tarieven-verzekering/rekeningen/wat_kost_een_behandeling"><?php echo gettext("uniform codes")?></a><?php echo gettext(" (aka UPT). All dentists working in the Netherlands are obliged to adhere to these codes.")?> <br><br>
+            <?php echo gettext("We will issue an invoice for you immediately at the end of every appointment. You will have the choice of either paying at our clinic by cash, debit or credit card, or at a later stage (up to 14 days after the appointment) via bank transfer.")?> 
             </div>
             
         </div>

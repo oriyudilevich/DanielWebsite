@@ -8,20 +8,40 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-01 12:15+0100\n"
+"POT-Creation-Date: 2013-12-01 12:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Last-Translator: Misha Veldhoen\n"
+"Language-Team:\n"
+"Language: nl \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../../index.php:44
 msgid "Back to Top"
 msgstr "Naar Top"
 
-#: ../../../index.php:76
+#: ../../../index.php:54
+msgid "Coming soon..."
+msgstr "Binnenkort..."
+
+#: ../../../index.php:54
+msgid "Make your appointment online!"
+msgstr "Maak een afspraak online!"
+
+#: ../../../index.php:55
+msgid "For the time being, please call 070-2000193 to make an appointment."
+msgstr "Voorlopig kunt u 070-2000193 bellen voor het maken van een afspraak."
+
+#: ../../../index.php:56
+msgid ""
+"Please bring with you to your first appointment a valid identity card, and "
+"in case you have any medical limitations, a letter from your family doctor."
+msgstr ""
+"Breng alstublieft een geldig legetimatiebewijs op uw eerste afspraak. Mochten er "
+"speciale medische omstandigheden zijn, breng dan ook een brief van uw huisarts mee."
+
+#: ../../../index.php:76 ../../../index.php:173
 msgid "Location"
 msgstr "Locatie"
 
@@ -39,11 +59,28 @@ msgstr "Over ons"
 
 #: ../../../index.php:92 ../../../index.php:250
 msgid "Payment and Billing"
-msgstr ""
+msgstr "Betaling"
 
-#: ../../../index.php:116 ../../../index.php:176
+#: ../../../index.php:116 ../../../index.php:176 ../../../index.php:181
+#: ../../../index.php:182
 msgid "The Hague"
 msgstr "Den Haag"
+
+#: ../../../index.php:124
+msgid "Flexible working hours"
+msgstr "Flexibele werktijden"
+
+#: ../../../index.php:126
+msgid "Great location"
+msgstr "Centraal gelegen"
+
+#: ../../../index.php:128
+msgid "Personal treatment"
+msgstr "Persoonlijke behandeling"
+
+#: ../../../index.php:130
+msgid "Serene environment"
+msgstr "Serene omgeving"
 
 #: ../../../index.php:177
 msgid "By public transport"
@@ -51,7 +88,7 @@ msgstr "Met het openbaar vervoer"
 
 #: ../../../index.php:178
 msgid "3 minutes walk from The Hague Central Station"
-msgstr "3 minuten lopen van Den Haag Centraal Station"
+msgstr "3 minuten lopen vanaf Den Haag Centraal Station"
 
 #: ../../../index.php:179
 msgid "Tram lines: 3, 4, 9, 15, 16, 17 (The Hague Cantral Station)"
@@ -61,9 +98,33 @@ msgstr "Tram lijnen: 3, 4, 9, 15, 16, 17 (Den Haag Centraal Station)"
 msgid "Car parking"
 msgstr "Parkeren"
 
-#: ../../../index.php:181 ../../../index.php:182
-msgid "Den Haag"
-msgstr "Den Haag"
+#: ../../../index.php:194
+msgid "Monday"
+msgstr "Maandag"
+
+#: ../../../index.php:195
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+#: ../../../index.php:196
+msgid "Wednesday"
+msgstr "Woensdag"
+
+#: ../../../index.php:197
+msgid "Thursday"
+msgstr "Donderdag"
+
+#: ../../../index.php:198
+msgid "Friday"
+msgstr "Vrijdag"
+
+#: ../../../index.php:199
+msgid "Saturday"
+msgstr "Zaterdag"
+
+#: ../../../index.php:200
+msgid "Sunday"
+msgstr "Zondag"
 
 #: ../../../index.php:210
 msgid "closed"
@@ -77,22 +138,66 @@ msgstr "Tandarts"
 msgid "B.Sc. Psychology"
 msgstr "B.Sc. Psychologie"
 
+#: ../../../index.php:235
+msgid ""
+"Dr. Daniel Finkelman has extensive experience in diverse fields of "
+"dentistry, including rehabilitation, pediatric dentistry and endodontistry "
+"(root canals). Dr. Finkelman specializes in treating patients with dental "
+"anxiety, both children and adults."
+msgstr ""
+"Dr. Daniel Finkelman heeft veel ervaring op diverse gebieden van de tandheelkunde,"
+" ondermeer in rehabilitatie, behandeling van kinderen, en endodontologie "
+"(wortelkanaalbehandeling). Dr. Finkelman is gespecialiseerd in het behandelen "
+"van angstpati&#235nten, zowel kinderen als volwassenen."
+
+#: ../../../index.php:236
+msgid ""
+"We provide state of the art family dentistry with emphasis on prevention, "
+"aesthetics and comfort."
+msgstr ""
+"Wij bieden moderne tandheelkundige behandelingen voor de hele familie, met de "
+"nadruk op preventie, esthetiek, en comfort."
+
+#: ../../../index.php:237
+msgid ""
+"We strongly believe that dentistry can and should be pain free, and each "
+"patient's needs, concerns and demands should be addressed. "
+msgstr ""
+"Wij geloven dat elke behandeling bij de tandarts geheel zonder pijn moet "
+"kunnen verlopen, en dat de specifieke wensen van de pati&#235nt voorop staan. "
+
+#: ../../../index.php:253
+msgid ""
+"In The Netherlands, the government determines the rate of dental treatments "
+"in "
+msgstr ""
+"Elk jaar stelt de Nederlandse Zorgautoriteit (NZa) "
+
+#: ../../../index.php:253
+msgid "uniform codes"
+msgstr "richtlijnen"
+
+#: ../../../index.php:253
+msgid ""
+" (aka UPT). All dentists working in the Netherlands are obliged to adhere to "
+"these codes."
+msgstr ""
+" vast voor de kosten van tandheelkundige zorg. Alle tandartsen in Nederland zijn " 
+"verplicht zich aan deze prijzen te houden."
+
+#: ../../../index.php:254
+msgid ""
+"We will issue an invoice for you immediately at the end of every "
+"appointment. You will have the choice of either paying at our clinic by "
+"cash, debit or credit card, or at a later stage (up to 14 days after the "
+"appointment) via bank transfer."
+msgstr ""
+"De rekening wordt u meteen na de behandeling overhandigd. U kunt er voor "
+"kiezen om direct in de praktijk te betalen, contant of met PIN. U kunt er "
+" ook voor kiezen om het geld op een later tijdstip (binnen 14 dagen) over "
+" te maken."
+
 #: ../../../index.php:263
 msgid "Website created by"
 msgstr "Website gemaakt door"
 
-#: ../../../index.php:130
-msgid "Serene environment"
-msgstr "Serene omgeving"
-
-#: ../../../index.php:128
-msgid "Personal treatment"
-msgstr "Persoonlijke behandeling"
-
-#: ../../../index.php:126
-msgid "Great location"
-msgstr "Centraal gelegen"
-
-#: ../../../index.php:124
-msgid "Flexible working hours"
-msgstr "Flexibele werktijden"
