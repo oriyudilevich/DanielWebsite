@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-01 10:21+0100\n"
+"POT-Creation-Date: 2013-12-01 12:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,24 +19,80 @@ msgstr ""
 
 #: ../../../index.php:44
 msgid "Back to Top"
-msgstr "Naar Boven"
+msgstr "Naar Top"
 
 #: ../../../index.php:76
 msgid "Location"
 msgstr "Locatie"
 
-#: ../../../index.php:80
+#: ../../../index.php:80 ../../../index.php:189
 msgid "Opening Hours"
 msgstr "Openingstijden"
 
-#: ../../../index.php:84
+#: ../../../index.php:84 ../../../index.php:136
 msgid "Make an Appointment"
 msgstr "Maak een Afspraak"
 
-#: ../../../index.php:88
+#: ../../../index.php:88 ../../../index.php:229
 msgid "About Us"
-msgstr "Over Ons"
+msgstr "Over ons"
 
-#: ../../../index.php:92
+#: ../../../index.php:92 ../../../index.php:250
 msgid "Payment and Billing"
-msgstr "Betaling en Rekeningen"
+msgstr ""
+
+#: ../../../index.php:116 ../../../index.php:176
+msgid "The Hague"
+msgstr "Den Haag"
+
+#: ../../../index.php:177
+msgid "By public transport"
+msgstr "Met het openbaar vervoer"
+
+#: ../../../index.php:178
+msgid "3 minutes walk from The Hague Central Station"
+msgstr "3 minuten lopen van Den Haag Centraal Station"
+
+#: ../../../index.php:179
+msgid "Tram lines: 3, 4, 9, 15, 16, 17 (The Hague Cantral Station)"
+msgstr "Tram lijnen: 3, 4, 9, 15, 16, 17 (Den Haag Centraal Station)"
+
+#: ../../../index.php:180
+msgid "Car parking"
+msgstr "Parkeren"
+
+#: ../../../index.php:181 ../../../index.php:182
+msgid "Den Haag"
+msgstr "Den Haag"
+
+#: ../../../index.php:210
+msgid "closed"
+msgstr "gesloten"
+
+#: ../../../index.php:233
+msgid "Dental Medical Doctor"
+msgstr "Tandarts"
+
+#: ../../../index.php:234
+msgid "B.Sc. Psychology"
+msgstr "B.Sc. Psychologie"
+
+#: ../../../index.php:263
+msgid "Website created by"
+msgstr "Website gemaakt door"
+
+#: ../../../index.php:130
+msgid "Serene environment"
+msgstr "Serene omgeving"
+
+#: ../../../index.php:128
+msgid "Personal treatment"
+msgstr "Persoonlijke behandeling"
+
+#: ../../../index.php:126
+msgid "Great location"
+msgstr "Centraal gelegen"
+
+#: ../../../index.php:124
+msgid "Flexible working hours"
+msgstr "Flexibele werktijden"

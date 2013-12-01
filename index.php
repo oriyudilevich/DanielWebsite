@@ -26,7 +26,7 @@
     =====================================================-->
     <?php
         // I18N support information here
-        $language = 'nl';
+        $language = $_GET['language'];
         putenv("LANG=$language"); 
         setlocale(LC_ALL, $language);
 
@@ -91,11 +91,11 @@
             
             <span id="header_payment" class="container"><a id="header_payment_a" href="#payment"><?php echo gettext("Payment and Billing")?></a></span>
             
-            <!-- <span class="separator">|</span>
+            <span class="separator">|</span>
              
-            <span id="header_english">EN</span>
+            <span id="header_english" class="container"><a id="header_english_a" href="index.php?language=en">EN</a></span>
             
-            <span id="header_dutch" class="container"><a id="header_dutch_a" href="dutch.html">NL</a></span> -->
+            <span id="header_dutch" class="container"><a id="header_dutch_a" href="index.php?language=nl">NL</a></span>
             
         </div>
         
@@ -113,7 +113,7 @@
                 <div id="title_main">The Hague Dental Care</div>
             
                 <div id="title_address">
-                Muzenplein 91, 2511GD, The Hague<br>
+                Muzenplein 91, 2511GD, <?php echo gettext("The Hague")?><br>
                 Tel: 070-2000193
                 </div>
         
@@ -121,19 +121,19 @@
         
             <div id="reasons">
             
-                <div id="reason_1"><img src="images/check.gif"> Flexible working hours</div>
+                <div id="reason_1"><img src="images/check.gif"> <?php echo gettext("Flexible working hours")?></div>
             
-                <div id="reason_2"><img src="images/check.gif"> Great location</div>
+                <div id="reason_2"><img src="images/check.gif"> <?php echo gettext("Great location")?></div>
             
-                <div id="reason_3"><img src="images/check.gif"> Personal treatment</div>
+                <div id="reason_3"><img src="images/check.gif"> <?php echo gettext("Personal treatment")?></div>
             
-                <div id="reason_4"><img src="images/check.gif"> Serene environment</div>
+                <div id="reason_4"><img src="images/check.gif"> <?php echo gettext("Serene environment")?></div>
             
             </div>
         
             <div id="appointment">
             
-                <div id="appointment_content"><a href="#" id="appointment_a" class="topopup">Make an Appointment</a></div>
+                <div id="appointment_content"><a href="#" id="appointment_a" class="topopup"><?php echo gettext("Make an Appointment")?></a></div>
 
             </div>
         
@@ -173,20 +173,20 @@
                 <div id="location_title"><!-- <a class="mapspopup" href="#"><img id="location_content_img" src="images/googlemaps.png"></a>--> Location</div>
         
                 <div id="location_content">
-                Muzenplein 91, 2511GD, The Hague<br><br>
-                <b>By public transport</b><br>
-                3 minutes walk from The Hague Central Station<br>
-                Tram lines: 3, 4, 9, 15, 16, 17 (The Hague Cantral Station)<br><br>
-                <b>Car parking</b><br>
-                Q-Park, Zwarteweg 40, 2511VS, Den Haag<br>
-                Q-Park, Fluwelen Burgwal 46, 2511CJ, Den Haag<br>
+                Muzenplein 91, 2511GD, <?php echo gettext("The Hague")?><br><br>
+                <b><?php echo gettext("By public transport")?></b><br>
+                <?php echo gettext("3 minutes walk from The Hague Central Station")?><br>
+                <?php echo gettext("Tram lines: 3, 4, 9, 15, 16, 17 (The Hague Cantral Station)")?><br><br>
+                <b><?php echo gettext("Car parking")?></b><br>
+                Q-Park, Zwarteweg 40, 2511VS, <?php echo gettext("Den Haag")?><br>
+                Q-Park, Fluwelen Burgwal 46, 2511CJ, <?php echo gettext("Den Haag")?><br>
                 </div>
             
             </div>
             
             <div id="openinghours">
         
-                <div id="openinghours_title">Opening Hours</div>
+                <div id="openinghours_title"><?php echo gettext("Opening Hours")?></div>
         
                 <div id="openinghours_content">
                 
@@ -207,7 +207,7 @@
                     7:00-9:00, 16:00-20:30<br>
                     7:00-9:00<br>
                     10:00-14:30<br>
-                    closed<br>
+                    <?php echo gettext("closed")?><br>
                     </div>
                     
                 </div>
@@ -226,12 +226,12 @@
         
             <img id="aboutus_pic" src="images/pic-aboutus.jpg">
             
-            <div id="aboutus_title">About Us</div>
+            <div id="aboutus_title"><?php echo gettext("About Us")?></div>
         
             <div id="aboutus_content">
             <b>Dr. Daniel Finkelman</b><br>
-            Dental Medical Doctor<br>
-            B.Sc. Psychology <br><br>
+            <?php echo gettext("Dental Medical Doctor")?><br>
+            <?php echo gettext("B.Sc. Psychology")?><br><br>
             Dr. Daniel Finkelman has extensive experience in diverse fields of dentistry, including rehabilitation, pediatric dentistry and endodontistry (root canals). Dr. Finkelman specializes in treating patients with dental anxiety, both children and adults. <br><br>
             We provide state of the art family dentistry with emphasis on prevention, aesthetics and comfort. <br><br>
             We strongly believe that dentistry can and should be pain free, and each patient's needs, concerns and demands should be addressed. 
@@ -247,7 +247,7 @@
         
         <div id="payment">
         
-            <div id="payment_title">Payment and Billing</div>
+            <div id="payment_title"><?php echo gettext("Payment and Billing")?></div>
         
             <div id="payment_content">
             In The Netherlands, the government determines the rate of dental treatments in <a target=_blank href="http://www.tandarts.nl/tarieven-verzekering/rekeningen/wat_kost_een_behandeling">uniform codes</a>  (aka UPT). All dentists working in the Netherlands are obliged to adhere to these codes. <br><br>
@@ -260,7 +260,7 @@
     ====================================-->
     
         <div id="footer">
-            <div id="footer_credits">Website created by Misha Veldhoen & Ori Yudilevich</div>
+            <div id="footer_credits"><?php echo gettext("Website created by")?> Misha Veldhoen & Ori Yudilevich</div>
         </div>
     
     </body>
