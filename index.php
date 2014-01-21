@@ -26,7 +26,8 @@
     =====================================================-->
     <?php
         // Obtain the desired language
-        $language = $_GET['language'];
+        $language = "en_US";
+        if(isset($_GET['language'])) $language = $_GET['language'];
         putenv("LANG=$language"); 
         setlocale(LC_ALL, $language);
 
@@ -35,7 +36,6 @@
         bindtextdomain($domain, getcwd()."/locale"); 
         textdomain($domain);
     ?>
-    
     <!-- Back to Top
     =====================================================-->
     
@@ -93,9 +93,9 @@
             
             <span class="separator">|</span>
              
-            <span id="header_english" class="container"><a id="header_english_a" href="index.php?language=en">EN</a></span>
+            <span id="header_english" class="container"><a id="header_english_a" href="index.php?language=en_US">EN</a></span>
             
-            <span id="header_dutch" class="container"><a id="header_dutch_a" href="index.php?language=nl">NL</a></span>
+            <span id="header_dutch" class="container"><a id="header_dutch_a" href="index.php?language=nl_NL">NL</a></span>
             
         </div>
         
