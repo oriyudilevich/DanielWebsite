@@ -73,13 +73,14 @@ jQuery(function($) {
 		map = new google.maps.Map(document.getElementById('map_canvas'), map_options);
 
 		// Add a marker at Daniel's.
-		var image = 'images/markerdani.pdf';
+		//var image = 'images/Tooth.gif';
   		var myLatLng = new google.maps.LatLng(52.080042,4.319639);
   		var beachMarker = new google.maps.Marker({
       		position: myLatLng,
      		map: map,
-      		icon: image
+      		/*icon: image*/
 		});
+
 	}
 
 });
